@@ -1,0 +1,49 @@
+.facilitiesSection {
+  width: 100%;
+  background-color: var(--off-white);
+  padding: 50px 0;
+  .facilities {
+    margin: auto;
+    text-align: center;
+    max-width: 1200px;
+    .sub-heading {
+      font-size: var(--medium-font);
+      color: var(--heading-color);
+      font-family: var(--para-text);
+    }
+    .heading {
+      font-size: var(--extra-large-font);
+      color: var(--black);
+      margin: 20px 0;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      .card {
+        padding: 20px 20px;
+        background-color: var(--white);
+        border-radius: 10px;
+        max-width: 280px;
+        text-align: center;
+        cursor: pointer;
+        .icon {
+          color: var(--heading-color);
+          margin: 10px 0;
+        }
+        h3 {
+          font-size: var(--medium-font);
+          color: var(--para);
+        }
+        p {
+          font-family: var(--para-text);
+          font-size: var(--small-font);
+          margin: 10px 0;
+          color: var(--other);
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

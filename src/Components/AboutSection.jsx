@@ -1,7 +1,18 @@
 import { assets } from '../assets/assets'
 import '../styles/about.min.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const AboutSection = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <div className='aboutSection'>  
          <div className="container">
@@ -14,11 +25,11 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="content">
-              <h4>About Us</h4>
-              <h1>Welcome To Our <br/>Moonlit Hotel & Resort</h1>
-              <p>Welcome to Bokinn, where luxury meets comfort in the heart of Canada. Since 1999, we have been dedicated to providing an exceptional stay for our guests, blending modern amenities with timeless elegance. Our beautifully designed rooms and suites offer stunning views and plush accommodations, ensuring a restful retreat whether you're here for business or leisure.</p>
+              <h4 data-aos="fade-up">About Us</h4>
+              <h1 data-aos="fade-up">Welcome To Our <br/>Moonlit Hotel & Resort</h1>
+              <p data-aos="fade-up">Welcome to Bokinn, where luxury meets comfort in the heart of Canada. Since 1999, we have been dedicated to providing an exceptional stay for our guests, blending modern amenities with timeless elegance. Our beautifully designed rooms and suites offer stunning views and plush accommodations, ensuring a restful retreat whether you're here for business or leisure.</p>
 
-              <button className='button'>Learn More</button>
+              <button data-aos="fade-up" className='button'>Learn More</button>
             </div>
           </div> 
     </div>

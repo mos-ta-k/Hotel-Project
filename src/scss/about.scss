@@ -73,7 +73,7 @@
         font-size: 16px;
         line-height: 1.6;
         margin-bottom: 30px;
-        font-family: var(--para-text);
+        font-family: var(--medium-text);
       }
 
       .button {
@@ -90,20 +90,6 @@
           background-color: var(--btn-1);
           transform: translateY(-2px);
         }
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .aboutSection {
-    .container {
-      flex-direction: column;
-      gap: 30px;
-      padding: 0 20px;
-
-      .content h1 {
-        font-size: 28px;
       }
     }
   }
