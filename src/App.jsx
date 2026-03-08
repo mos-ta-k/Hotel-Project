@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import "../src/styles/main.min.css";
 import HeroSection from "./Components/HeroSection";
-import FormSection from "./Components/formSection";
+import FormSection from "./Components/FormSection";
 import AboutSection from "./Components/AboutSection";
-import FacilitiesSection from "./Components/facilitiesSection";
+import FacilitiesSection from "./Components/FacilitiesSection";
 import RoomSection from "./Components/RoomSection";
 
 const App = () => {
